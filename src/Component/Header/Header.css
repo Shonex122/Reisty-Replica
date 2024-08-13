@@ -1,0 +1,67 @@
+.header {
+  width: 100%;
+  height: 11vh;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  box-shadow: 0 1px 3px -2px black;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: white;
+}
+
+.SearchBox {
+  width: 100%;
+  height: 80px;
+  margin-left: 30px;
+  position: relative;
+}
+
+.SearchBox .searchIcon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 30px;
+}
+
+.SearchBox input {
+  width: 350px;
+  height: 50px;
+  padding: 20px 50px;
+  border-radius: 10px;
+  border: 1px solid rgb(241, 245, 249);
+}
+
+.btn {
+  display: flex;
+  gap: 10px;
+  margin-right: 70px;
+  margin-top: -10px;
+}
+
+.header-button1 button {
+  width: 100px;
+  height: 50px;
+  border: 1px solid rgb(241, 245, 249);
+  background-color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.header-button1 button:hover {
+  background-color: rgb(241, 245, 249);
+  color: rgb(186, 23, 47);
+}
+
+.header-button2 button {
+  width: 100px;
+  height: 50px;
+  border: 1px solid rgb(241, 245, 249);
+  background-color: rgb(186, 23, 47);
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  margin-left: 20px;
+}
